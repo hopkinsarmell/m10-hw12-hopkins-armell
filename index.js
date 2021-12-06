@@ -16,3 +16,6 @@ class Car {
 
 var mySweetRide = new Car("pontiac", "Fiero", 1988);
 
+mySweetRide.honk()
+mySweetRide.performMaintenance()
+

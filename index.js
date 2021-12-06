@@ -4,5 +4,8 @@ class Car {
         this.model = model;
         this.year = year;
     }
+    honk() {
+        console.log('BEEP BEEP!')
+    }
 }
 

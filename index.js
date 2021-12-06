@@ -7,5 +7,10 @@ class Car {
     honk() {
         console.log('BEEP BEEP!')
     }
+    performMaintenance() {
+        setTimeout(function() {
+            console.log('maintenance complete')
+        }, 3000)
+    }
 }
 
